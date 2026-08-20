@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_pe_recife_cnd-mcp",
+  "title": "Prefeitura PE Recife: Certidão Negativa de Débitos",
+  "description": "Prefeitura PE Recife: Clearance Certificate (Debts), official-source lookup. Platform-hosted, pay pe",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_pe_recife_cnd-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_pe_recife_cnd"
+    }
+  ]
+}
